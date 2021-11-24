@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
+app.use(cors({origin: ["http://localhost:3000"]}));
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, '../client/build')));
