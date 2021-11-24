@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "cd server && npm install express",
-    "start": "cd server && npm start"
+    "start": "node server/server.js"
   },
+  "dependencies": {},
   "author": "",
   "license": "ISC"
 }
