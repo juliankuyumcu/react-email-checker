@@ -2,6 +2,8 @@
 
 ## https://react-email-checker.herokuapp.com/
 
+![Demo](react-email-checker.gif)
+
 ## Concept
 
 A demo site using React and Express.js. 
