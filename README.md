@@ -1,13 +1,11 @@
-# react-email-checker
-
-## https://react-email-checker-932e596d7a19.herokuapp.com/
+# React Email Checker
 
 ![Demo](react-email-checker.gif)
 
 ## Concept
 
-A demo site using React and Express.js. 
+A small demo site using React and Express.js. 
 
 ## Usage
 
-Enter a string of text and let the site tell you if it is a valid email address!
+Enter a string of text and let the site tell you if it is a valid email address.
